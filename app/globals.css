@@ -1,0 +1,89 @@
+@import "tailwindcss";
+@import "./tokens.css";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-ring: var(--ring);
+  --color-accent: var(--accent);
+  --color-accent-dim: var(--accent-dim);
+  --color-accent-soft: var(--accent-soft);
+  --color-canopy: var(--canopy);
+  --color-canopy-soft: var(--canopy-soft);
+  --color-canopy-deep: var(--canopy-deep);
+  --color-spine-line: var(--spine-line);
+  --font-sans: var(--type-body);
+  --font-mono: var(--type-label);
+  --font-display: var(--type-display);
+  --radius: var(--radius);
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  color-scheme: dark;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--type-body);
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--foreground);
+}
+
+/* ---- Bark grain: a very faint warm-noise texture on the base background,
+   evoking weathered wood/stone rather than a flat digital black. ---- */
+.grain-bark {
+  background-image:
+    radial-gradient(circle at 20% 15%, color-mix(in srgb, var(--canopy-deep) 22%, transparent), transparent 45%),
+    radial-gradient(circle at 82% 68%, color-mix(in srgb, var(--accent-dim) 30%, transparent), transparent 50%);
+}
+
+/* ---- Label / kicker text used for chapter ring numbers and meta ---- */
+.text-label {
+  font-family: var(--type-label);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+}
+
+.font-display {
+  font-family: var(--type-display);
+}
+
+/* ---- Reveal-on-scroll: content visible by default, GSAP enhances if JS runs.
+   (Content must never depend on JS executing to become visible — see
+   reveal-opacity-zero-fragility lesson from earlier builds in this fleet.) ---- */
+.reveal {
+  opacity: 1;
+}
+
+/* ---- Spine progress fill: grown via GSAP ScrollTrigger scrub, but starts
+   at a small non-zero height so the line reads as present even before any
+   JS runs (progressive enhancement, not a prerequisite for visibility). ---- */
+.spine-fill {
+  height: 4%;
+  transform-origin: top;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,74 @@
+/* Design Tokens - Auto-generated */
+/* Do not edit directly - modify tokens.json instead */
+
+/* === PRIMITIVES === */
+:root {
+  --primitive-color-bark-700: #4A3B2C;
+  --primitive-color-bark-800: #362A20;
+  --primitive-color-bark-900: #241C16;
+  --primitive-color-bark-950: #1A1410;
+  --primitive-color-stone-100: #F1EADC;
+  --primitive-color-stone-300: #D3C6B0;
+  --primitive-color-stone-500: #9C8D78;
+  --primitive-color-canopy-300: #8B9B6E;
+  --primitive-color-canopy-500: #5C6B47;
+  --primitive-color-canopy-700: #3E4830;
+  --primitive-color-canopy-900: #232A19;
+  --primitive-color-murva-300: #C285A6;
+  --primitive-color-murva-500: #93386A;
+  --primitive-color-murva-700: #5C1D42;
+  --primitive-color-murva-900: #2E0F21;
+  --primitive-font-display: var(--font-spectral), 'Spectral', Georgia, serif;
+  --primitive-font-sans: var(--font-inter), 'Inter', system-ui, sans-serif;
+  --primitive-font-mono: var(--font-jetbrains-mono), 'JetBrains Mono', 'SF Mono', monospace;
+  --primitive-motion-duration-micro: 180ms;
+  --primitive-motion-duration-base: 320ms;
+  --primitive-motion-duration-reveal: 0.9s;
+  --primitive-motion-duration-grow: 1.6s;
+  --primitive-motion-ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --primitive-motion-ease-organic: cubic-bezier(0.33, 1, 0.68, 1);
+  --primitive-tracking-display: -0.01em;
+  --primitive-tracking-label: 0.18em;
+}
+
+/* === SEMANTIC === */
+:root {
+  --background: #1A1410;
+  --foreground: #F1EADC;
+  --card: #241C16;
+  --card-foreground: #F1EADC;
+  --muted: #241C16;
+  --muted-foreground: #9C8D78;
+  --border: #362A20;
+  --ring: #93386A;
+  --radius: 0.25rem;
+  --accent: #93386A;
+  --accent-dim: #2E0F21;
+  --accent-soft: #C285A6;
+  --canopy: #5C6B47;
+  --canopy-soft: #8B9B6E;
+  --canopy-deep: #232A19;
+  --spine-line: #4A3B2C;
+  --type-display: var(--font-spectral), 'Spectral', Georgia, serif;
+  --type-body: var(--font-inter), 'Inter', system-ui, sans-serif;
+  --type-label: var(--font-jetbrains-mono), 'JetBrains Mono', 'SF Mono', monospace;
+  --ease-reveal: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-organic: cubic-bezier(0.33, 1, 0.68, 1);
+  --duration-micro: 180ms;
+  --duration-base: 320ms;
+  --duration-reveal: 0.9s;
+  --duration-grow: 1.6s;
+  --tracking-display: -0.01em;
+  --tracking-label: 0.18em;
+}
+
+/* === COMPONENTS === */
+:root {
+  --ring-marker-size: 2.75rem;
+  --ring-marker-size-active: 3.25rem;
+  --ring-marker-border-width: 1.5px;
+  --spine-width: 2px;
+  --spine-glow: radial-gradient(circle, rgba(147, 56, 106, 0.35), transparent 70%);
+  --chapter-kicker-size: 0.72rem;
+  --chapter-title-size: clamp(2.25rem, 5.5vw, 4rem);
+}
