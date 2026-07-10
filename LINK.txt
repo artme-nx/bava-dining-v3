@@ -1,0 +1,5 @@
+Bava Dining & More — v3 (vertical timeline / story-scroll archetype)
+
+Live:  https://artme-nx.github.io/bava-dining-v3/
+Repo:  https://github.com/artme-nx/bava-dining-v3
+Datum objave: 10.07.2026
