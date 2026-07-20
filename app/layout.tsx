@@ -23,7 +23,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Bava Dining & More — Šibenik",
   description:
-    "Bava Dining & More, Zlarinski prolaz 1, stari grad Šibenik — terasa u hladu 300-godišnje murve, mediteranska i dalmatinska kuhinja. TripAdvisor 4.7/5, 200+ recenzija.",
+    "Bava Dining & More, Zlarinski prolaz 1, stari grad Šibenik — terasa u hladu velike murve, mediteranska i dalmatinska kuhinja. Google 4,7/5, 1.058 recenzija.",
 };
 
 export default function RootLayout({

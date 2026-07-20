@@ -28,7 +28,7 @@ export function assetPath(path: string) {
  */
 export const RINGS = [
   { id: "ring-00", num: "00", short: "Bava", title: "Naslovnica" },
-  { id: "ring-01", num: "01", short: "Stablo", title: "300 godina murve" },
+  { id: "ring-01", num: "01", short: "Stablo", title: "Murva nad terasom" },
   { id: "ring-02", num: "02", short: "Kut", title: "Kut starog grada" },
   { id: "ring-03", num: "03", short: "Stol", title: "Ono što raste na obali" },
   { id: "ring-04", num: "04", short: "Glasovi", title: "Gdje se gosti vraćaju" },

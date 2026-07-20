@@ -1,5 +1,6 @@
 import { Chapter } from "@/components/timeline/chapter";
 import { MulberryBranch } from "@/components/motifs/mulberry-branch";
+import { Photo } from "@/components/photo";
 
 export function CornerChapter() {
   return (
@@ -29,6 +30,15 @@ export function CornerChapter() {
         Gosti taj ugođaj najčešće opisuju istom riječi: miran. Pažljivo,
         prisutno osoblje i kut u kojem se ne žuri.
       </p>
+
+      <div className="mt-8 grid grid-cols-2 gap-3 md:grid-cols-3">
+        <Photo src="/img/bava-terasa-pjaceta.webp" alt="Terasa Bave na pjaceti" width={1200} height={800} className="aspect-[4/3]" sizes="(min-width: 768px) 28vw, 45vw" />
+        <Photo src="/img/bava-terasa-stablo-vecer.webp" alt="Terasa pod murvom navečer" width={972} height={648} className="aspect-[4/3]" sizes="(min-width: 768px) 28vw, 45vw" />
+        <Photo src="/img/bava-interijer-sala.webp" alt="Unutrašnjost Bave" width={1000} height={1500} className="aspect-[4/3]" sizes="(min-width: 768px) 28vw, 45vw" />
+        <Photo src="/img/bava-interijer-prozori.webp" alt="Unutrašnjost Bave, prozori prema ulici" width={1200} height={800} className="aspect-[4/3]" sizes="(min-width: 768px) 28vw, 45vw" />
+        <Photo src="/img/bava-vinska-vitrina.webp" alt="Vinska vitrina" width={1000} height={1500} className="aspect-[4/3]" sizes="(min-width: 768px) 28vw, 45vw" />
+        <Photo src="/img/bava-eksterijer-sumrak.webp" alt="Bava u sumrak, Zlarinski prolaz" width={1200} height={800} className="aspect-[4/3]" sizes="(min-width: 768px) 28vw, 45vw" />
+      </div>
     </Chapter>
   );
 }

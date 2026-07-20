@@ -32,7 +32,7 @@ export function VoicesChapter() {
       kicker="Nakon što gosti odu"
       title="Gdje se ljudi vraćaju"
       asideSide="left"
-      aside={<TreeRingStat value="4.7 / 5" label="TripAdvisor i Google, 200+ recenzija" />}
+      aside={<TreeRingStat value="4,7 / 5" label="1.058 Google · 221 TripAdvisor" />}
     >
       <p>
         Ocjena od 4,7 na TripAdvisoru i Googleu, uz više od dvjesto

@@ -1,6 +1,7 @@
 import { RingMarker } from "@/components/timeline/ring-marker";
 import { CanopyPattern } from "@/components/motifs/canopy-pattern";
 import { ScrollReveal } from "@/components/scroll-reveal";
+import { Photo } from "@/components/photo";
 
 /**
  * Ring 00 — the opening of the story-scroll, not a conventional hero:
@@ -27,7 +28,7 @@ export function Masthead() {
             Dining &amp; More
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
-            Terasa u hladu tristagodišnje murve, na rubu stare gradske jezgre,
+            Terasa u hladu velike murve, na rubu stare gradske jezgre,
             nekoliko koraka od rive. Priča koja slijedi ide istim redom kojim
             je i sama nastala — od stabla, do kuta, do stola.
           </p>
@@ -49,15 +50,15 @@ export function Masthead() {
 
           <div className="mt-14 flex flex-wrap gap-x-10 gap-y-4 border-t border-border pt-6">
             <div>
-              <div className="font-display text-2xl text-foreground">4.7 / 5</div>
+              <div className="font-display text-2xl text-foreground">4,7 / 5</div>
               <div className="text-label text-[0.62rem] text-muted-foreground">
-                TripAdvisor &amp; Google, 200+ recenzija
+                1.058 Google recenzija
               </div>
             </div>
             <div>
-              <div className="font-display text-2xl text-foreground">~300</div>
+              <div className="font-display text-2xl text-foreground">#9</div>
               <div className="text-label text-[0.62rem] text-muted-foreground">
-                godina stara murva nad terasom
+                od 166 restorana u Šibeniku, TripAdvisor
               </div>
             </div>
             <div>
@@ -67,6 +68,17 @@ export function Masthead() {
               </div>
             </div>
           </div>
+
+          {/* Pročelje s naslikanim wordmarkom — ujedno potvrda identiteta */}
+          <Photo
+            src="/img/bava-eksterijer-zlarinski-prolaz.webp"
+            alt="Pročelje Bave s naslikanim natpisom, Zlarinski prolaz 1, Šibenik"
+            width={1530}
+            height={1020}
+            priority
+            sizes="(min-width: 768px) 60vw, 92vw"
+            className="mt-12 aspect-[3/2]"
+          />
         </div>
       </ScrollReveal>
     </section>

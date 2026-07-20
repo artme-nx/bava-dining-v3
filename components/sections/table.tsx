@@ -1,5 +1,6 @@
 import { Fish, Soup, Utensils, Leaf } from "lucide-react";
 import { Chapter } from "@/components/timeline/chapter";
+import { Photo } from "@/components/photo";
 
 const DISHES = [
   {
@@ -57,6 +58,13 @@ export function TableChapter() {
           </li>
         ))}
       </ul>
+
+      <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-4">
+        <Photo src="/img/bava-burger.webp" alt="Burger s tartufima" width={1200} height={800} className="aspect-square" sizes="(min-width: 640px) 22vw, 45vw" />
+        <Photo src="/img/bava-orada-file.webp" alt="File orade" width={1000} height={1500} className="aspect-square" sizes="(min-width: 640px) 22vw, 45vw" />
+        <Photo src="/img/bava-odrezak.webp" alt="Odrezak s roštilja" width={1200} height={800} className="aspect-square" sizes="(min-width: 640px) 22vw, 45vw" />
+        <Photo src="/img/bava-tjestenina-tartufata.webp" alt="Tjestenina s tartufima" width={1000} height={1500} className="aspect-square" sizes="(min-width: 640px) 22vw, 45vw" />
+      </div>
 
       <p className="mt-6 text-sm text-muted-foreground">
         Cijene su u srednje-višem rangu za stari grad — za trenutačni jelovnik
