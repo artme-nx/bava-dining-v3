@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[39756,["/bava-dining-v3/_next/static/chunks/3eu6kxjy90t2s.js","/bava-dining-v3/_next/static/chunks/2qoc_kn_izwiv.js","/bava-dining-v3/_next/static/chunks/2yf1xmn8g6nf0.js","/bava-dining-v3/_next/static/chunks/32_-f3kvirmsg.js"],"default"]
+3:I[37457,["/bava-dining-v3/_next/static/chunks/3eu6kxjy90t2s.js","/bava-dining-v3/_next/static/chunks/2qoc_kn_izwiv.js","/bava-dining-v3/_next/static/chunks/2yf1xmn8g6nf0.js","/bava-dining-v3/_next/static/chunks/32_-f3kvirmsg.js"],"default"]
+4:[]
+0:{"rsc":["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}]]}],"isPartial":false,"staleTime":300,"varyParams":"$W4","buildId":"xcVKXfE6FgsbvKbgun7e3"}
